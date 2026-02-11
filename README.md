@@ -154,7 +154,7 @@ The dataset used for training contains annotated pothole images with segmentatio
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **D D S S Mahith**
 
