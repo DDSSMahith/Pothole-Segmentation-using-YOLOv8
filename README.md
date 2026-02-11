@@ -10,7 +10,7 @@ The project is suitable for academic demonstrations, computer vision learning, a
 
 ---
 
-## 📌 Features
+## Features
 
 * YOLOv8-based **image segmentation**
 * Supports **video input**
@@ -20,7 +20,7 @@ The project is suitable for academic demonstrations, computer vision learning, a
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```
 pothole-segmentation/
@@ -53,7 +53,7 @@ pothole-segmentation/
 
 ---
 
-## 🧠 Model Used
+## Model Used
 
 * **YOLOv8 Segmentation (`yolov8n-seg`)**
 * Trained on a custom pothole segmentation dataset
@@ -61,9 +61,9 @@ pothole-segmentation/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Create Virtual Environment
+### Create Virtual Environment
 
 ```bash
 python -m venv venv
@@ -85,7 +85,7 @@ source venv/bin/activate
 
 ---
 
-### 2️⃣ Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -93,13 +93,13 @@ pip install -r requirements.txt
 
 ---
 
-## 🏋️ Training the Model
+## Training the Model
 
 ```bash
 python scripts/train.py
 ```
 
-> ⚠️ Training on CPU can be slow. GPU-based training (e.g., Google Colab) is recommended.
+> Training on CPU can be slow. GPU-based training (e.g., Google Colab) is recommended.
 
 The trained model will be saved at:
 
@@ -109,7 +109,7 @@ runs/segment/train/weights/best.pt
 
 ---
 
-## 🎥 Video Inference
+## Video Inference
 
 1. Place your input video in:
 
@@ -131,7 +131,7 @@ outputs/segmented_output.mp4
 
 ---
 
-## 🧪 Notes
+## Notes
 
 * VS Code may not preview `.mp4` files correctly.
   Use **VLC Media Player** or **Windows Media Player** to view results.
@@ -139,13 +139,13 @@ outputs/segmented_output.mp4
 
 ---
 
-## 📚 Dataset
+## Dataset
 
 The dataset used for training contains annotated pothole images with segmentation labels in YOLOv8 format.
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 * Real-time webcam pothole detection
 * Web-based UI using Streamlit or Flask
@@ -158,8 +158,3 @@ The dataset used for training contains annotated pothole images with segmentatio
 
 **D D S S Mahith**
 
----
-
-## 📄 License
-
-This project is intended for **educational and research purposes**.
